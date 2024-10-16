@@ -18,4 +18,4 @@ app.get("/", (req,res)=>{
 
 app.listen(PORTA, ()=>{
     console.log(`Servidor rodando no endereçço: localhost${PORTA}`)
-})
+}) 
