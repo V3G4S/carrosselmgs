@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/public/imagens/rafaelaIcon.webp">
+    <title>Rafaela</title>
+    <style>
+        body {
+            background-color: #67cfff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #button-container {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        h2 {
+            color: gold;
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px black;
+            text-align: center;
+        }
+        p {
+            background-color: gold;
+            padding: 20px;
+            border-radius: 30px;
+            max-width: 600px;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 0 4px 15px black;
+        }
+        img {
+            border: 3px gold solid;
+            border-radius: 30px;
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px black;
+        }
+        .button-link {
+            margin: 30px;
+            padding: 10px 20px;
+            background-color: gold;
+            color: black;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 15px black;
+        }
+        #content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="button-container">
+        <a class="button-link" href="/views/hanabi_page.html" alt="Seta para a esquerda">Anterior</a>
+        <a class="button-link" href="/views/estes_page.html" alt="Seta para a direita">Próximo</a>
+    </div>
+    <div id="content">
+        <div id="text-about">
+            <h2>Rafaela</h2>
+            <p>Descida direto dos céus para levantar seus aliados, Rafaela, a anja do destino. Suas habilidaes são com um foco principal em controle de grupo, podendo desacelerar e paralizar seus inimigos, mas nada a impede de curar seus aliados com seu cajado.</p>
+        </div>
+        <img src="/public/imagens/rafaela.webp" alt="Rafaela skin parceria All Star">
+    </div>
+</body>
+</html>

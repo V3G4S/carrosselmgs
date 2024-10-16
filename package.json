@@ -1,0 +1,14 @@
+{
+  "name": "testesleo",
+  "version": "1.0.0",
+  "description": "Meus pêsames pelo emprego",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
